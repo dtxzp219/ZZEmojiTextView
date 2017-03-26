@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDC29341E87ED3600B66B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC29331E87ED3600B66B97 /* main.m */; };
+		1FDC29371E87ED3600B66B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC29361E87ED3600B66B97 /* AppDelegate.m */; };
+		1FDC293A1E87ED3600B66B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC29391E87ED3600B66B97 /* ViewController.m */; };
+		1FDC293D1E87ED3600B66B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC293B1E87ED3600B66B97 /* Main.storyboard */; };
+		1FDC293F1E87ED3600B66B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC293E1E87ED3600B66B97 /* Assets.xcassets */; };
+		1FDC29421E87ED3600B66B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC29401E87ED3600B66B97 /* LaunchScreen.storyboard */; };
+		1FDC294C1E87EEF100B66B97 /* ZZFaceKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC294B1E87EEF100B66B97 /* ZZFaceKeyBoard.m */; };
+		1FDC294E1E87F09400B66B97 /* emojiImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC294D1E87F09400B66B97 /* emojiImage.xcassets */; };
+		1FDC29511E87F11700B66B97 /* ZZEmojiTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC29501E87F11700B66B97 /* ZZEmojiTextAttachment.m */; };
+		1FDC29531E87F19800B66B97 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC29521E87F19800B66B97 /* Emoji.plist */; };
+		1FDC29561E87F1DB00B66B97 /* ZZEmojiTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC29551E87F1DB00B66B97 /* ZZEmojiTextView.m */; };
+		1FDC295B1E87F5B400B66B97 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC29581E87F5B400B66B97 /* UIView+Addition.m */; };
+		1FDC295C1E87F5B400B66B97 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC295A1E87F5B400B66B97 /* UIView+Frame.m */; };
+		1FDC295E1E87F95500B66B97 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC295D1E87F95500B66B97 /* Image.xcassets */; };
+		1FDC29601E87FD6E00B66B97 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC295F1E87FD6E00B66B97 /* expression.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FDC292F1E87ED3600B66B97 /* ZZEmojiTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZEmojiTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDC29331E87ED3600B66B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FDC29351E87ED3600B66B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FDC29361E87ED3600B66B97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FDC29381E87ED3600B66B97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FDC29391E87ED3600B66B97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FDC293C1E87ED3600B66B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FDC293E1E87ED3600B66B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FDC29411E87ED3600B66B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FDC29431E87ED3600B66B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDC294A1E87EEF100B66B97 /* ZZFaceKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFaceKeyBoard.h; sourceTree = "<group>"; };
+		1FDC294B1E87EEF100B66B97 /* ZZFaceKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFaceKeyBoard.m; sourceTree = "<group>"; };
+		1FDC294D1E87F09400B66B97 /* emojiImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = emojiImage.xcassets; sourceTree = "<group>"; };
+		1FDC294F1E87F11700B66B97 /* ZZEmojiTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZEmojiTextAttachment.h; sourceTree = "<group>"; };
+		1FDC29501E87F11700B66B97 /* ZZEmojiTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZEmojiTextAttachment.m; sourceTree = "<group>"; };
+		1FDC29521E87F19800B66B97 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		1FDC29541E87F1DB00B66B97 /* ZZEmojiTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZEmojiTextView.h; sourceTree = "<group>"; };
+		1FDC29551E87F1DB00B66B97 /* ZZEmojiTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZEmojiTextView.m; sourceTree = "<group>"; };
+		1FDC29571E87F5B400B66B97 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		1FDC29581E87F5B400B66B97 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		1FDC29591E87F5B400B66B97 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1FDC295A1E87F5B400B66B97 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1FDC295D1E87F95500B66B97 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		1FDC295F1E87FD6E00B66B97 /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDC292C1E87ED3600B66B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FDC29261E87ED3600B66B97 = {
+			isa = PBXGroup;
+			children = (
+				1FDC29311E87ED3600B66B97 /* ZZEmojiTextView */,
+				1FDC29301E87ED3600B66B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FDC29301E87ED3600B66B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FDC292F1E87ED3600B66B97 /* ZZEmojiTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FDC29311E87ED3600B66B97 /* ZZEmojiTextView */ = {
+			isa = PBXGroup;
+			children = (
+				1FDC29351E87ED3600B66B97 /* AppDelegate.h */,
+				1FDC29361E87ED3600B66B97 /* AppDelegate.m */,
+				1FDC29381E87ED3600B66B97 /* ViewController.h */,
+				1FDC29391E87ED3600B66B97 /* ViewController.m */,
+				1FDC29491E87EE9200B66B97 /* customKeyboard */,
+				1FDC293B1E87ED3600B66B97 /* Main.storyboard */,
+				1FDC293E1E87ED3600B66B97 /* Assets.xcassets */,
+				1FDC295D1E87F95500B66B97 /* Image.xcassets */,
+				1FDC29401E87ED3600B66B97 /* LaunchScreen.storyboard */,
+				1FDC29431E87ED3600B66B97 /* Info.plist */,
+				1FDC29321E87ED3600B66B97 /* Supporting Files */,
+			);
+			path = ZZEmojiTextView;
+			sourceTree = "<group>";
+		};
+		1FDC29321E87ED3600B66B97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FDC29331E87ED3600B66B97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FDC29491E87EE9200B66B97 /* customKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1FDC29571E87F5B400B66B97 /* UIView+Addition.h */,
+				1FDC29581E87F5B400B66B97 /* UIView+Addition.m */,
+				1FDC29591E87F5B400B66B97 /* UIView+Frame.h */,
+				1FDC295A1E87F5B400B66B97 /* UIView+Frame.m */,
+				1FDC294A1E87EEF100B66B97 /* ZZFaceKeyBoard.h */,
+				1FDC294B1E87EEF100B66B97 /* ZZFaceKeyBoard.m */,
+				1FDC295F1E87FD6E00B66B97 /* expression.plist */,
+				1FDC29521E87F19800B66B97 /* Emoji.plist */,
+				1FDC294D1E87F09400B66B97 /* emojiImage.xcassets */,
+				1FDC294F1E87F11700B66B97 /* ZZEmojiTextAttachment.h */,
+				1FDC29501E87F11700B66B97 /* ZZEmojiTextAttachment.m */,
+				1FDC29541E87F1DB00B66B97 /* ZZEmojiTextView.h */,
+				1FDC29551E87F1DB00B66B97 /* ZZEmojiTextView.m */,
+			);
+			path = customKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDC292E1E87ED3600B66B97 /* ZZEmojiTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDC29461E87ED3600B66B97 /* Build configuration list for PBXNativeTarget "ZZEmojiTextView" */;
+			buildPhases = (
+				1FDC292B1E87ED3600B66B97 /* Sources */,
+				1FDC292C1E87ED3600B66B97 /* Frameworks */,
+				1FDC292D1E87ED3600B66B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZEmojiTextView;
+			productName = ZZEmojiTextView;
+			productReference = 1FDC292F1E87ED3600B66B97 /* ZZEmojiTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FDC29271E87ED3600B66B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhang;
+				TargetAttributes = {
+					1FDC292E1E87ED3600B66B97 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FDC292A1E87ED3600B66B97 /* Build configuration list for PBXProject "ZZEmojiTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FDC29261E87ED3600B66B97;
+			productRefGroup = 1FDC29301E87ED3600B66B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDC292E1E87ED3600B66B97 /* ZZEmojiTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FDC292D1E87ED3600B66B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDC29531E87F19800B66B97 /* Emoji.plist in Resources */,
+				1FDC295E1E87F95500B66B97 /* Image.xcassets in Resources */,
+				1FDC29421E87ED3600B66B97 /* LaunchScreen.storyboard in Resources */,
+				1FDC29601E87FD6E00B66B97 /* expression.plist in Resources */,
+				1FDC293F1E87ED3600B66B97 /* Assets.xcassets in Resources */,
+				1FDC294E1E87F09400B66B97 /* emojiImage.xcassets in Resources */,
+				1FDC293D1E87ED3600B66B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDC292B1E87ED3600B66B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDC295C1E87F5B400B66B97 /* UIView+Frame.m in Sources */,
+				1FDC29511E87F11700B66B97 /* ZZEmojiTextAttachment.m in Sources */,
+				1FDC295B1E87F5B400B66B97 /* UIView+Addition.m in Sources */,
+				1FDC293A1E87ED3600B66B97 /* ViewController.m in Sources */,
+				1FDC29371E87ED3600B66B97 /* AppDelegate.m in Sources */,
+				1FDC29341E87ED3600B66B97 /* main.m in Sources */,
+				1FDC29561E87F1DB00B66B97 /* ZZEmojiTextView.m in Sources */,
+				1FDC294C1E87EEF100B66B97 /* ZZFaceKeyBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FDC293B1E87ED3600B66B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FDC293C1E87ED3600B66B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FDC29401E87ED3600B66B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FDC29411E87ED3600B66B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FDC29441E87ED3600B66B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FDC29451E87ED3600B66B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FDC29471E87ED3600B66B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZEmojiTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangpeng.ZZEmojiTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FDC29481E87ED3600B66B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZEmojiTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangpeng.ZZEmojiTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDC292A1E87ED3600B66B97 /* Build configuration list for PBXProject "ZZEmojiTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDC29441E87ED3600B66B97 /* Debug */,
+				1FDC29451E87ED3600B66B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDC29461E87ED3600B66B97 /* Build configuration list for PBXNativeTarget "ZZEmojiTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDC29471E87ED3600B66B97 /* Debug */,
+				1FDC29481E87ED3600B66B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FDC29271E87ED3600B66B97 /* Project object */;
+}
